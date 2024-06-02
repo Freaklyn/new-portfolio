@@ -1,0 +1,219 @@
+
+.container{
+    color: black;
+}
+.header{
+    background-color: rgb(224, 237, 245);
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+
+} 
+ .intro{
+    padding: 10px;
+    margin: 10px;
+}
+.intro h1{
+ font-family: "cursive"; 
+ font-style: italic;
+ font-weight: lighter;
+ font-size: 40px;
+ color:rgb(97, 194, 211);
+ text-align: center;
+ right: 70px;
+ } 
+.intro p{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 20px;
+   letter-spacing: 0.8px;
+   color: rgb(98, 159, 187);
+   
+}
+#cloud1{
+  position: absolute;
+  height: 35px;
+ right: 150px;
+} 
+#cloud2{
+    position: relative;
+    float:left;
+    height: 35px;
+    margin-left: 250px;
+}
+#mountain{
+    position: relative;
+    height: 260px;
+    margin-right: 350px;
+}
+.sec1{
+    position: relative;
+    text-align: center;
+}
+.zontal{
+    border-style:dotted none none ;
+    border-top:2px dotted black;
+    width: 200px;
+    height: 5px;
+  background-color: white;
+}
+#my_profile{
+    height: 250px;}
+ 
+  .sec1 h1{
+    font-weight: lighter;
+    font-display:inherit;
+    color: rgb(81, 136, 187);
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 34px;
+  } 
+
+  hr{
+    width: 890px;
+    height: 6px;
+    background-color: black;
+  }
+   .img-1{
+    height: 250px;
+    position: relative;
+    float: left;
+    margin-left: 200px;
+  }
+  #sol{
+position: absolute;
+right: 35rem;
+color: rgb(15, 130, 141);
+font-family:Arial, Helvetica, sans-serif;
+font-weight:550;
+  }
+  #sol2{
+  position: absolute;
+    padding: 10px;
+    text-align: left;
+    left: 29.7rem;
+    margin-top: 50px;
+    line-height: 20px;
+  }  
+ .img_2{
+    height: 220px;
+    float: right;
+    position: relative;
+    margin-right: 200px;
+}
+#sol3{
+    position: absolute;
+   color: rgb(15, 130, 141);
+   font-family:Arial, Helvetica, sans-serif;
+   font-weight:550;
+   left: 15rem;
+}
+#sol4{
+    position: absolute;
+    padding: 10px;
+    right: 35rem;
+    margin-top: 50px;
+    line-height: 20px;
+} 
+.dot{
+    margin-top: 250px;
+    position: absolute;
+    text-align: center;
+    left: 40rem;
+    border-style:dotted none none ;
+    border-top:2px dotted black;
+    width: 200px;
+    height: 5px;
+  background-color: white;
+}
+.sec4{
+    position: relative;
+    margin-top: 300px;
+     background-color:rgb(209, 200, 187) ;
+}
+.capa_img{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.sec4 h1{
+    color: rgb(6, 99, 6);
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+    text-decoration: underline blue;
+    text-overflow: clip;
+   
+}
+.sec4 img{
+    height: 300px;
+    transition: height 2s;
+}
+
+
+.capa_img img{
+ padding: 6px;
+ 
+}
+.capa_4{
+    width: 330px;
+    margin: 2px;
+    padding: 5px;
+}
+.capa_6{
+    width: 310px;
+}
+.sec4 img:hover{
+    height: 320px;
+    
+}
+.sec5{
+    background-color: white;
+    text-align: center;
+    margin-top: 50px;
+}
+.sec5 h1{
+    color: rgb(92, 138, 168);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: lighter;
+}
+span{
+    position: relative;
+    border-radius: 5px;
+    background-color: rgb(39, 95, 180);
+    color: white;
+    padding: 7px;
+    left: 220px;
+   
+}
+span:hover{
+    background-color: rgb(63, 192, 24);
+}
+.footer{
+    background-color: rgb(46, 160, 194);
+    height: 200px;
+}
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+span a{
+    text-decoration: none;
+    color: white;
+}
+li{
+    padding: 25px;
+}
+li a{
+    text-decoration: none;
+    color: rgb(30, 80, 109);
+    font-weight: bolder;
+    margin: 15px; 
+}
+.footer p{
+    color: white;
+    text-align: center;
+    margin-top: 80px;
+}
+
+
+
